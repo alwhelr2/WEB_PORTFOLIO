@@ -1,0 +1,39 @@
+.navbar {
+    background-color: var( --shuttle-gray );
+}
+
+.nav-link {
+    color: var( --light-green ) !important;
+    width: fit-content;
+    padding: 8px 0px !important;
+    line-height: 24px;
+}
+
+.nav-link.active {
+    color: var( --green ) !important;
+    border-bottom: 2px solid;
+    /* margin-bottom: -2px !important; */
+}
+
+.navbar-toggler-icon,
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    background-image: url( "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-5 -5 40 40'%3e%3cpath stroke='rgba( 197, 210, 194, 1 )' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler:focus {
+    color: var( --light-green );
+    --bs-navbar-toggler-focus-width: 1px;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
+.nav-link:not(:last-child) {
+    margin: 0px 32px 0px 0px;
+}
+
+#navbarNav {
+    margin-right: 64px;
+}

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "CommonJS",
+        "jsx": "react-jsx",
+        "moduleResolution": "Node",
+        "outDir": "./build",
+        "strict": true,
+        "esModuleInterop": true,
+        "rootDir": "./",
+        "resolveJsonModule": true
+    }
+}

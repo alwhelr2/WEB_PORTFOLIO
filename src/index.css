@@ -1,0 +1,38 @@
+:root {
+    --ebony-clay: #2e3445;
+    --ebony-clay-dark: #222733;
+    --shuttle-gray: #525e65;
+    --light-green: #c5d2c2;
+    --green: #73cca8;
+}
+
+body {
+    min-width: 350px;
+    /* height: fit-content; */
+    min-height: 100vh;
+    background-image: radial-gradient(
+        50% 100% at center top,
+        var( --ebony-clay ) 0%,
+        var( --ebony-clay-dark ) 100%
+    );
+}
+
+#root, .App {
+    min-height: inherit;
+}
+
+html {
+    background-color: var( --ebony-clay-dark );
+}
+
+.barlow-condensed-el-font {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.roboto-condensed-font {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,1 @@
+{"root":["./server/buttonrole.ts","./server/database.ts","./server/guild.ts","./server/guilduser.ts","./server/reactionrole.ts","./server/server.ts","./server/trigger.ts","./server/user.ts","./server/types.ts","./server/enums/buttonroletype.ts","./server/enums/triggertype.ts"],"errors":true,"version":"5.6.3"}

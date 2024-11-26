@@ -1,0 +1,63 @@
+.Footer {
+    padding: 8px;
+    width: fit-content;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey( 0px );
+	}
+	50% {
+		transform: translatey( -12px );
+	}
+	100% {
+		transform: translatey( 0px );
+	}
+}
+
+.Footer .bi {
+    font-size: 1.5rem;
+    margin: 10px;
+    color: var( --ebony-clay );
+    cursor: pointer;
+    background-color: var( --green );
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.Footer .contact-link {
+    transform: translateY( 0px );
+    animation: float 6s ease-in-out infinite;
+    display: inline-block;
+    position: relative;
+}
+
+.contact-link .link-tooltip {
+    visibility: hidden;
+    background-color: var( --green );
+    color: var( --ebony-clay );
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 2px;
+    position: absolute;
+    z-index: 1;
+    bottom: calc( 100% + 10px );
+    left: 50%;
+    width: 60px;
+    margin-left: -30px;
+}
+
+.contact-link:hover .link-tooltip {
+    visibility: visible;
+}
+
+.contact-link .link-tooltip::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var( --green ) transparent transparent transparent;
+}

@@ -1,0 +1,53 @@
+.section-container {
+    width: 800px;
+    max-width: 85%;
+}
+
+#about {
+    margin-top: 100px;
+}
+
+.selfie-img {
+    max-width: 55%;
+    min-width: 225px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    width: 550px;
+    filter: drop-shadow( 0 0 1.75rem var( --shuttle-gray ) );
+}
+
+.reflection {
+    transform: scale( 1, -1 ) translateY( 35px );
+	mask-image: linear-gradient( to top, rgba( 0, 0, 0, .20 ) 0%, rgba( 0, 0, 0, .05 ) 5%, rgba( 0, 0, 0, 0 ) 20% );
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.section-description {
+    font-size: 20px;
+}
+
+.section-header {
+    font-size: 24px;
+    color: var( --green );
+    border-bottom: 2px solid;
+    width: fit-content;
+    margin: 0 auto 10px auto;
+}
+
+.Home {
+    color: var( --light-green );
+}
+
+.section-container {
+    text-align: center;
+    margin: 3rem auto !important;
+}
+
+.name-header {
+    letter-spacing: .5rem;
+    font-size: 3.5rem;
+    margin-top: 20px;
+}

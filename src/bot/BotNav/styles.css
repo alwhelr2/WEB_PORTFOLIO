@@ -1,0 +1,79 @@
+.navbar-primary {
+    background-color: #333;
+    width: 95px;
+    max-width: 95px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.navbar-primary.collapsed {
+    width: 60px;
+}
+
+.navbar-primary.collapsed .bi {
+    font-size: 16px;
+}
+
+.navbar-primary.collapsed .nav-label {
+    display: none;
+}
+
+.navbarlink {
+    padding: 10px 8px 10px 8px !important;
+}
+
+.btn-expand-collapse {
+    display: block;
+    padding: 8px 0;
+    border-top:solid 1px #666;
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    background-color: #333;
+    width: 100%;
+}
+
+.btn-expand-collapse:hover,
+.btn-expand-collapse:focus {
+    background-color: #222;
+    color: white;
+}
+
+.btn-expand-collapse:active {
+    background-color: #111;
+}
+
+.navbar-primary-menu,
+.navbar-primary-menu li {
+   margin:0; padding:0;
+   list-style: none;
+}
+
+.navbar-primary-menu li a {
+    display: block;
+    padding: 10px 16px 10px 16px;
+    text-align: left;
+    border-bottom:solid 1px #444;
+    color: #ccc;
+    text-decoration: none;
+    /* white-space: nowrap; */
+}
+  
+.navbar-primary-menu li a:hover {
+    background-color: #000;
+    text-decoration: none;
+    color: white;
+}
+
+/* .navbar-primary-menu li a .bi {
+    margin-right: 6px;
+} */
+  
+.navbar-primary-menu li a:hover .bi {
+    color: orchid;
+}

@@ -1,0 +1,149 @@
+/* .discord-bot {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+} */
+
+.discord-bot-nav {
+    width: 200px;
+}
+
+/* .discord-bot-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+} */
+
+.discord-bot-card>div {
+    margin: 1.5em auto;
+    width: 85%;
+    max-width: 85%;
+    min-width: 85%;
+}
+
+.discord-bot .server-name, .discord-bot .user-name, .discord-bot .trigger-name {
+    background-color: white;
+    outline: 2px solid darkgray;
+    border-radius: 10px;
+    width: 112px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0px 5px;
+}
+
+.discord-bot .servers-list-container, .discord-bot .users-list-container, .discord-bot .bot-details-container, .discord-bot .triggers-list-container, .discord-bot .react-roles-list-container {
+    padding: 10px;
+    gap: 15px;
+}
+
+.discord-bot .usericon, .discord-bot .guildicon, .discord-bot .triggericon, .discord-bot .reactroleicon {
+    border-radius: 30%;
+}
+
+.discord-bot .title {
+    width: fit-content;
+    padding: 8px;
+    margin: 16px auto;
+    border-radius: 15%;
+    background-color: dimgray;
+    color: white;
+    outline: 2px solid darkgray;
+    align-self: center;
+    margin: 0px;
+}
+
+.discord-bot .card {
+    border: 2px solid darkgray;
+    background-color: gray;
+}
+
+.discord-bot .card-body {
+    padding: 32px 12px;
+}
+
+.BotGuild .card-body, .BotUser .card-body, .BotTrigger .card-body, .BotHome .card-body {
+    background-color: dimgray;
+}
+
+.discord-bot-card .card-header {
+    padding: 8px 0px !important;
+    margin: 0px auto !important;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.discord-bot .card-header>img {
+    height: auto;
+    max-width: 70px;
+}
+
+.discord-bot .server-div, .discord-bot .user-div, .discord-bot .trigger-div, .discord-bot .react-role-div {
+    background-color: darkgray;
+    border-radius: 25%;
+    outline: 2px solid dimgray;
+    text-align: center;
+    cursor: pointer;
+}
+
+.discord-bot .list-group-item {
+    background-color: darkgray;
+    border: 0px !important;
+    outline: 1px solid dimgray;
+    word-break: break-word;
+}
+
+.discord-bot .list-header {
+    background-color: gray;
+}
+
+.BotGuild .guild-user-div .BotGuild .user-guild-div, .BotTrigger .trigger-guild-div {
+    width:fit-content;
+}
+
+.discord-bot-card .placeholder {
+    height: 46px;
+    margin: 0px auto;
+}
+
+.discord-bot .trigger-div {
+    min-width: 100px;
+}
+
+.discord-bot .trigger-div p {
+    word-break: break-word;
+}
+
+.trigger-guild-div img, .user-guild-div img, .trigger-user-div img {
+    border-radius: 30%;
+}
+
+.BotReactRoles .reactrolespan {
+    font-size: 52px;
+}
+
+.botBtn {
+    background-color: gray;
+    border-color: dimgray;
+    color: white;
+}
+
+.botBtn:hover {
+    background-color: dimgray;
+    color: white;
+}
+
+.botBtn:active {
+    background-color: gray !important;
+    color: white !important;
+    border-color: dimgray !important;
+}
+
+.submitFormBtn:hover {
+    border-color: dimgray;
+}
